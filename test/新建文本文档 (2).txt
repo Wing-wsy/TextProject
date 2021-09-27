@@ -1,0 +1,18 @@
+https://www.fliplus.com/vp-web-buyer/index.jhtml
+-->
+vp-web-buyer/src/main/webapp/WEB-INF/template/shop/index.ftl
+
+
+https://www.fliplus.com/vp-web-buyer/product/selfShopNew.jhtml
+-->
+vp-web-buyer/src/main/webapp/WEB-INF/template/shop/product/self_shop_new.ftl
+
+分类请求后台地址：/product/selfShopNew
+
+-------------------------------------------------
+流程：
+api-controller: vp-controller-buyer/src/main/java/com/vispractice/vpshop/controller/shop/ProductController.java
+
+前端页面：vp-web-buyer/src/main/webapp/WEB-INF/template/shop/product/self_shop_new.ftl
+
+配置文件：vp-web-buyer/src/main/resources/applicationContext.xml
